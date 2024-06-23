@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form
+
+        </title>
+        <style>
+            .p{border-radius: 20px;
+            width: 60%;}
+            .Container{display: flex;}
+            .D1{width: 50%;}
+            .D3{width: 50%;}
+            .D2{width: 5%;}
+            .container{display: flex;}
+            .d1{width: 50%;}
+            .d2{width: 50%;}
+            .d3{width: 10%;}
+            .select{
+                width: 100%;
+                border: none;
+                background-color: lightskyblue;
+                padding: 12px;
+                border-radius: 20px;
+
+            }
+            textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color:lightskyblue;
+  font-size: 16px;
+  resize: none;
+}
+            .search{
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+ 
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+            input[type=button], input[type=submit], input[type=reset] {
+  background-color: lightskyblue;
+ 
+  border-bottom: 2px black;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+    cursor: pointer;
+border-radius: 20px;}
+input[type=password] {
+                width:80%;
+                border: none;
+                border-bottom: 2px solid black;
+                background-color:lightskyblue;
+                
+ 
+  padding: 12px 20px;
+  margin: 8px 0;}
+  
+
+            input[type=text] {
+                width:100%;
+                border: none;
+                border-bottom: 2px solid black;
+                background-color:lightskyblue;
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+  box-sizing: border-box;
+  border-radius: 30px;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus{
+    background-color:skyblue;
+    border: 2px solid white;
+}
+input[type=text]:focus {
+  width: 100%;
+}
+        </style>
+    </head>
+    <body>
+        <div style="background-color: orange;">
+           <h1 style="text-align: center;"> Login</h1>
+        </div>
+        <div class="Container">
+            <div class="D1">
+                <h2>Already have an account? Sign in to recover your account</h2>
+                <select id="country" name="Address" class="select">
+                    <option value="pnumber">Ph Number</option>
+                    <option value="emaiaddreess">Email Address</option>
+                   
+                  </select><br><br>
+                  <form class="p">
+                    <label for="lname">Enter your password</label>
+                    <input type="password" id="lname" name="lname" style="border-radius: 20px;">
+                  </form><br><br>
+                  <input type="reset" value="Login" style="background-color: blue;">
+                </div>
+                
+           
+                
+        </div>
+        
+
+         
+
+        
+    </body>
+</html>
